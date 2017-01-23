@@ -1,5 +1,6 @@
 #a0{
-    height:60%;
+    height:auto;
+    width: 900px;
 }
 #a1{    
     width:30%;
@@ -29,7 +30,7 @@
     color:white;
     font-size:40px; 
     margin-top:10px;
-    margin-left: 130px;    
+    margin-left: 50px;    
     
 }
 
@@ -48,8 +49,7 @@
 
 #a1_image{
     
-    background:url(sayhello.png);
-    
+    background:url(sayhello.png);  
     width:100%;
     height:100%;
 }
@@ -91,7 +91,7 @@
 }
 
 #a1_button{
-    margin-left:600px;
+    margin-left:400px;
     margin-top:10px;
     padding-left:70px;
     padding-right:70px; 
@@ -100,6 +100,12 @@
 }
 
 #b0{
-   height: 40%; 
+   height: auto; 
+   background-color: black;
+   width:900px;
+    
+}
+#b1{
+    color: white;
 }
 
