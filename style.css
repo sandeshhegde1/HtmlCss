@@ -1,0 +1,105 @@
+#a0{
+    height:60%;
+}
+#a1{    
+    width:30%;
+    height:225px;
+    background-color:#191919;
+    margin:30px auto 0 auto;      
+    
+}
+
+#a1_loc{
+    
+    color:white;
+    padding-top: 50px;
+    text-align: center;
+    font-size:20px;    
+    
+}
+
+#a1_hr{
+    
+    color: white;
+    width:80%;
+}
+
+#a1_no{
+    
+    color:white;
+    font-size:40px; 
+    margin-top:10px;
+    margin-left: 130px;    
+    
+}
+
+#a1_13{    
+    
+    font-size:70px;     
+    color:white;  
+    margin-top:40px;     
+    
+    
+}
+
+#a1_anchor{
+    text-decoration: none;
+}
+
+#a1_image{
+    
+    background:url(sayhello.png);
+    
+    width:100%;
+    height:100%;
+}
+
+
+#a1_textImg{
+    
+    padding-top:110px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+.goldentext{
+    color: #C9B574;
+    
+    }
+
+#a1_belowText{
+    
+    text-align: center;
+    font-size: 15px;
+}
+
+.whitebutton{
+    background-color: white;
+    border:2px solid #000000;
+    font-size: 15px;
+    color:black;
+    text-decoration:none;
+    
+}
+
+.whitebutton:hover{
+    
+    color: white;
+    background-color: black;
+}
+
+#a1_button{
+    margin-left:600px;
+    margin-top:10px;
+    padding-left:70px;
+    padding-right:70px; 
+    padding-top: 10px;
+    padding-bottom:10px; 
+}
+
+#b0{
+   height: 40%; 
+}
+
