@@ -1,21 +1,21 @@
 #a0{
     height:auto;
-    width: 900px;
+    width: 700px;
 }
-#a1{    
-    width:30%;
-    height:225px;
+#a1_blackbox{    
+    width:22%;
+    height:100px;
     background-color:#191919;
-    margin:30px auto 0 auto;      
+    margin:20px auto 0 auto;      
     
 }
 
 #a1_loc{
     
     color:white;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
-    font-size:20px;    
+    font-size:10px;    
     
 }
 
@@ -28,17 +28,21 @@
 #a1_no{
     
     color:white;
-    font-size:40px; 
-    margin-top:10px;
-    margin-left: 50px;    
+    font-size:20px; 
+    margin-top:0px;
+    margin-left: 50px;  
+    vertical-align: top;
+    display: inline-block;
     
 }
 
 #a1_13{    
     
-    font-size:70px;     
+    font-size:35px;     
     color:white;  
-    margin-top:40px;     
+    margin-top:0px;
+    text-decoration: none;
+    vertical-align: top;
     
     
 }
@@ -49,7 +53,8 @@
 
 #a1_image{
     
-    background:url(sayhello.png);  
+    background:url(sayhello.png) top center no-repeat;  
+    background-size: contain;
     width:100%;
     height:100%;
 }
@@ -57,9 +62,11 @@
 
 #a1_textImg{
     
-    padding-top:110px;
+    
+    padding-top:60px; 
     text-align: center;
     text-decoration: none;
+    font-size:10px; 
     
     
 }
@@ -72,7 +79,7 @@
 #a1_belowText{
     
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .whitebutton{
@@ -91,18 +98,19 @@
 }
 
 #a1_button{
-    margin-left:400px;
+    margin-left:300px;
     margin-top:10px;
-    padding-left:70px;
-    padding-right:70px; 
-    padding-top: 10px;
-    padding-bottom:10px; 
+    padding-left:35px;
+    padding-right:35px; 
+    padding-top: 5px;
+    padding-bottom:5px; 
 }
 
 #b0{
    height: auto; 
    background-color: black;
-   width:900px;
+   width:700px;
+   margin-top: 15px;    
     
 }
 #b1{
