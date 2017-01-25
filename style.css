@@ -1,36 +1,42 @@
 #a0{
     height:auto;
     width: 700px;
+    text-align: center;
 }
 #a1_blackbox{    
-    width:22%;
+    width:25%;
     height:100px;
     background-color:#191919;
-    margin:20px auto 0 auto;      
+    margin:20px auto 20px auto;      
     
 }
 
 #a1_loc{
     
+    
     color:white;
     padding-top: 20px;
     text-align: center;
-    font-size:10px;    
+    font-size:7px;    
     
 }
 
 #a1_hr{
     
-    color: white;
+    color: #D2D2D2;
     width:80%;
+    height: .5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
+
+
 
 #a1_no{
     
     color:white;
-    font-size:20px; 
-    margin-top:0px;
-    margin-left: 50px;  
+    font-size:22px; 
+    margin-top: 5px;
     vertical-align: top;
     display: inline-block;
     
@@ -38,17 +44,18 @@
 
 #a1_13{    
     
-    font-size:35px;     
+    font-size:40px;     
     color:white;  
-    margin-top:0px;
     text-decoration: none;
     vertical-align: top;
+    display: inline-block;
     
     
 }
 
 #a1_anchor{
     text-decoration: none;
+    
 }
 
 #a1_image{
@@ -56,14 +63,15 @@
     background:url(sayhello.png) top center no-repeat;  
     background-size: contain;
     width:100%;
-    height:100%;
+    height:80px;
+    
 }
 
 
 #a1_textImg{
     
     
-    padding-top:60px; 
+    padding-top:45px; 
     text-align: center;
     text-decoration: none;
     font-size:10px; 
@@ -71,21 +79,92 @@
     
 }
 
-.goldentext{
-    color: #C9B574;
-    
-    }
+
 
 #a1_belowText{
     
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+    
 }
+
+
+
+#a1_button{
+    
+   
+    padding-left:40px;
+    padding-right:40px; 
+    padding-top: 7px;
+    padding-bottom:7px; 
+}
+
+#b0{
+   height: auto; 
+   background-color: black;
+   width:700px;
+   
+   position: fixed;
+   bottom: 0;
+  
+    
+}
+#b1{
+    color: white;
+    width: 700px;
+    
+}
+
+#b1_read{
+    
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration:none; 
+    font-size: 10px; 
+    
+    
+}
+
+
+
+#R1C1{
+    border-bottom: .1em solid #D2D2D2;
+    border-right: .1em solid #D2D2D2;
+}
+
+#R1C2{
+    border-bottom: .1em solid #D2D2D2;
+    padding-left:30px;
+    padding-bottom: 5px;
+}
+
+#b1_button{
+    
+    padding-left:40px;
+    padding-right:40px; 
+    padding-top: 7px;
+    padding-bottom:7px; 
+
+}
+
+#R2C1{
+    padding-left: 15px;
+    
+}
+
+
+.goldentext{
+    color: #C9B574;
+ }
 
 .whitebutton{
     background-color: white;
-    border:2px solid #000000;
-    font-size: 15px;
+    border:3px solid #000000;
+    font-size: 10px;
     color:black;
     text-decoration:none;
     
@@ -97,23 +176,52 @@
     background-color: black;
 }
 
-#a1_button{
-    margin-left:300px;
-    margin-top:10px;
-    padding-left:35px;
-    padding-right:35px; 
-    padding-top: 5px;
-    padding-bottom:5px; 
+.fontSize10{
+    font-size:10px;
 }
 
-#b0{
-   height: auto; 
-   background-color: black;
-   width:700px;
-   margin-top: 15px;    
+.fontSize8{
+    font-size: 8px;
+}
+
+.fontSize12{
+    font-size:12px;
+}
+
+.blackbutton{
+    background-color: black;
+    border:2px solid #FFFFFF;
+    font-size: 10px;
+    color:white;
+    text-decoration:none;
     
 }
-#b1{
+
+.blackbutton:hover{
+    
+    color: black;
+    background-color:white;
+}
+
+.sameLine{
+    display: inline-block;
+}
+
+.footerText{
     color: white;
 }
+
+.letterSpacing{
+    letter-spacing: 1px;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+table{
+height:300px;
+}
+
+
 
