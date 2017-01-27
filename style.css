@@ -1,13 +1,21 @@
+body{
+    
+    position: fixed;
+    bottom: 0;
+}
+
 #a0{
     height:auto;
     width: 700px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 #a1_blackbox{    
     width:25%;
     height:100px;
     background-color:#191919;
-    margin:20px auto 20px auto;      
+    margin:10px auto 20px auto;      
     
 }
 
@@ -61,7 +69,7 @@
 #a1_image{
     
     background:url(sayhello.png) top center no-repeat;  
-    background-size: contain;
+    background-size:contain;
     width:100%;
     height:80px;
     
@@ -71,7 +79,7 @@
 #a1_textImg{
     
     
-    padding-top:45px; 
+    padding-top:40px; 
     text-align: center;
     text-decoration: none;
     font-size:10px; 
@@ -96,25 +104,26 @@
 #a1_button{
     
    
-    padding-left:40px;
-    padding-right:40px; 
-    padding-top: 7px;
-    padding-bottom:7px; 
+    padding-left:25px;
+    padding-right:25px; 
+    padding-top: 5px;
+    padding-bottom:5px; 
 }
 
 #b0{
+   
    height: auto; 
    background-color: black;
    width:700px;
-   
-   position: fixed;
-   bottom: 0;
+   margin-left: -10px;
+   margin-bottom: -10px;
   
-    
 }
+
 #b1{
     color: white;
     width: 700px;
+    
     
 }
 
@@ -124,7 +133,7 @@
     margin-left: auto;
     margin-right: auto;
     text-decoration:none; 
-    font-size: 10px; 
+    font-size: 9px; 
     
     
 }
@@ -138,11 +147,20 @@
 
 #R1C2{
     border-bottom: .1em solid #D2D2D2;
-    padding-left:30px;
+    padding-left:40px;
     padding-bottom: 5px;
 }
 
-#b1_button{
+
+
+#emailForm{
+    padding-right: 50px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#b1_button_signup{
     
     padding-left:40px;
     padding-right:40px; 
@@ -151,20 +169,47 @@
 
 }
 
+
+
 #R2C1{
     padding-left: 15px;
     
+    
+}
+
+#R2C3{
+    padding-left: 10px;
 }
 
 
+
+#footer_button{
+    padding-left:20px;
+    padding-right:20px; 
+    padding-top: 4px;
+    padding-bottom:4px; 
+    font-size: 8px;
+    
+    
+}
+
+#txt_head{
+    margin-top: -20px;
+}
+
+#txt_office{
+    margin-top: -10px;
+}
+
 .goldentext{
+    
     color: #C9B574;
  }
 
 .whitebutton{
     background-color: white;
-    border:3px solid #000000;
-    font-size: 10px;
+    border:2px solid #000000;
+    font-size: 8px;
     color:black;
     text-decoration:none;
     
@@ -177,7 +222,7 @@
 }
 
 .fontSize10{
-    font-size:10px;
+    font-size:9px;
 }
 
 .fontSize8{
@@ -185,7 +230,7 @@
 }
 
 .fontSize12{
-    font-size:12px;
+    font-size:11px;
 }
 
 .blackbutton{
@@ -220,7 +265,34 @@
 }
 
 table{
-height:300px;
+    height:300px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.p_padding{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.colWhite{
+    color: white;
+}
+
+.fontArial{
+    font-family:"Arial";
+}
+
+.fontSerif{
+    font-family:"sans-serif;
+}
+
+.marBottom{
+    margin-bottom: -10px;
 }
 
 
