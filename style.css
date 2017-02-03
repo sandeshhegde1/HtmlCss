@@ -3,6 +3,7 @@ body{
     padding: 0px;
     margin: 0px;
     
+    
 }
 
 #a0{
@@ -48,6 +49,8 @@ body{
     margin-top: 10px;
     vertical-align: top;
     display: inline-block;
+    padding-bottom:3px;
+    border-bottom: 2px solid white;
     
 }
 
@@ -101,7 +104,7 @@ body{
     font-size: 9px;
     margin-top: 0px;
     margin-bottom: 25px;
-    letter-spacing: -0.5px;
+    
     
 }
 
@@ -110,10 +113,10 @@ body{
 #a1_button{
     
    
-    padding-left:30px;
-    padding-right:30px; 
-    padding-top: 5px;
-    padding-bottom:5px;
+    padding-left:35px;
+    padding-right:35px; 
+    padding-top: 8px;
+    padding-bottom:8px;
    
 }
 
@@ -154,6 +157,9 @@ body{
     text-decoration: underline;
 }
 
+#b1_read:focus{
+    text-decoration: underline;
+}
 
 
 #R1C1{
@@ -217,6 +223,11 @@ body{
     
 }
 
+#footer_button:focus{
+    color: black;
+    background-color:white;
+}
+
 #txt_head{
     margin-top: -20px;
 }
@@ -229,7 +240,9 @@ body{
 
 .goldentext{
     
-    color: #C9B574;
+   
+    color:#B69C43;
+    
  }
 
 .whitebutton{
@@ -244,6 +257,11 @@ body{
 .whitebutton:hover{
     
     color: white;
+    background-color: black;
+}
+
+.whitebutton:focus{
+     color: white;
     background-color: black;
 }
 
@@ -274,6 +292,8 @@ body{
     background-color:white;
 }
 
+
+
 .sameLine{
     display: inline-block;
 }
@@ -284,6 +304,9 @@ body{
 
 .letterSpacing{
     letter-spacing: 1px;
+}
+.letterSpacing2{
+    letter-spacing: 2px;
 }
 
 .centerAlign{
@@ -319,6 +342,10 @@ table{
 
 .marBottom{
     margin-bottom: -10px;
+}
+
+.fontWeight{
+    font-weight: 590;
 }
 
 
